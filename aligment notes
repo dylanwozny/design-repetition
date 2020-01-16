@@ -19,5 +19,11 @@ try with assigment this weekend...
 6. try grid
 7. make scss/sass mixins and methods for the site ! (dont hand this in)
 
+12 grid / width 1170px / margin 30px (15 on left and right)
+1170px / 12 = 97.5px - (15*2) = 67.5px per column. 
+
+also can do percentage
+
+
 
 
