@@ -1,0 +1,214 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Esteban', serif; */
+
+/* default color white, grey, baby blue ?? */
+
+body {
+  background: #e9e8e9;
+}
+
+.main-area {
+  width: 960px;
+  margin: 0 auto;
+  font-family: "Esteban", serif;
+  font-size: 1.3rem;
+  background-color: white;
+  padding-left: 1rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", "sans-serif";
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding-bottom: 3rem;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
+}
+
+header {
+  padding: 10rem 0rem;
+  margin: 0 auto;
+  width: 40rem;
+  font-weight: 100;
+  /* background-color: #61b7cf; */
+}
+
+header span {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+header p {
+  /* padding-top: 3rem; */
+}
+
+header h1 {
+  padding-bottom: 0rem;
+}
+
+
+
+ul {
+  display: flex;
+  padding: 3rem 3.5rem;
+  justify-content: space-between;
+  background-color: white;
+  margin: 3.5rem 0rem;
+}
+
+/* fill with color or make border diffrent color for contrast */
+li {
+  /* border: solid black 1px; */
+  padding:  0rem 1rem 1rem 0rem;
+  width: 25%;
+  line-height: 1.8;
+}
+
+.list-2{
+  flex-wrap: wrap;
+  align-content: space-between;
+  height: 35rem;
+}
+
+.list-2 li{
+  width: 40%;
+}
+
+li img{
+  width: 3.5rem;
+  padding-right: 80%;
+  border-bottom: grey solid 1px;
+  padding-bottom: .5rem;
+  margin-bottom: 1rem;
+}
+
+.dots {
+  width: 10rem;
+  display: flex;
+  justify-content: start;
+  padding: 0 0 3rem 0.1rem;
+}
+
+header > .dots {
+  padding-left: 0.5rem;
+}
+
+.dots > li {
+  width: 1rem;
+  height: 1rem;
+  margin-right: 1rem;
+  background-color: #ff8100;
+  border: none;
+  padding: 0rem;
+}
+
+.dots {
+  background: white;
+  margin: 0;
+}
+
+/* ul li {
+  background: white;
+  border-left: solid #abddf1 5px;
+} */
+
+img {
+  width: 100%;
+}
+
+.pic1 {
+  width: 40rem;
+  margin: 0 auto;
+  color: white;
+  font-size: 1rem;
+}
+
+figcaption{
+  color: black;
+}
+
+
+.pic1 figcaption {
+  padding-top: 1rem;
+}
+
+.intro {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 3.5rem;
+  padding-top: 7rem;
+}
+
+.background-fill-1,
+.background-fill {
+  width: 100%;
+  /* 83b4b3 */
+  background: white;
+  /* padding: 3.5rem; */
+  color: white;
+}
+
+.background-fill-1 {
+  /* padding: 0rem 3.5rem; */
+}
+
+.intro > * {
+  flex: 100%;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  padding-bottom: 0.5rem;
+}
+
+/* add color and make sure spacing and postioning and size seperates all sections  */
+/* try to make the section span the whole browser ! past the the body !*/
+article,
+section {
+  padding-bottom: 5rem;
+}
+
+section p {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+section h2 {
+  padding-left: 1.5rem;
+}
+
+section h3 {
+  padding-left: 3.5rem;
+}
+
+.dots {
+  padding-left: 1.7rem;
+}
+
+.flex-default {
+  display: flex;
+  padding: 3rem 0rem;
+}
+
+.flex-default figcaption {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.flex-default img {
+  padding-top: 0.7rem;
+  padding-right: 3rem;
+}
